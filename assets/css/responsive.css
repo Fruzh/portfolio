@@ -1,0 +1,235 @@
+
+/* ===== max width : 1200px  */
+@media screen and (max-width:1200px){
+    /* landing-page */
+    .landing-page {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 160px 20px 80px;
+    }
+    .landing-page .left {
+        margin-left: 32px;
+    }
+    .landing-page .right {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* first-page */
+    .first-page {
+        flex-direction: column-reverse;
+        padding: 80px 20px;
+    }
+    .first-page .main-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .first-page .main-img img {
+        max-width: 540px;
+        width: 100%;
+        max-height: 472px;
+        height: 100%;
+    }
+    .first-page .desc {
+        margin-left: 32px;
+    }
+    .desc .icon-container {
+        gap: 5px;
+    }
+    .icon-container img  {
+        width: 32px;
+    }
+    .icon-container div {
+        padding: 2px;
+    }
+
+    /* second-page */
+    .second-page {
+        align-items: flex-start;
+        padding: 80px 20px;
+        gap: 32px;
+    }
+    .second-page h1 {
+        margin-left: 32px;
+    }
+    .container-skill {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+
+    /* third-page */
+    .third-page {
+        padding: 80px 20px;
+        gap: 32px;
+    }
+    .third-page h1 {
+        text-align: start;
+        width: 100%;
+        margin-left: 32px;
+    }
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+}
+/* ===== max width : 1200px (END) =====  */
+
+
+/* ===== max width : 900px =====  */
+@media screen and (max-width: 900px) {
+    /* landing-page */
+    .landing-page .left {
+        margin: 0;
+    }
+    .landing-page .left h2 {
+        font-size: 28px;
+    }
+    .landing-page .left h1 {
+        font-size: 52px;
+        margin: -10px 0 24px;
+    }
+    .landing-page .left button {
+        padding: 12px 32px;
+        font-size: 20px;
+    }
+    .landing-page .coding p {
+        font-size: 14px;
+    }
+
+    /* first-page */
+    .first-page .desc {
+        margin: 0;
+    }
+    .desc h1 {
+        font-size: 42px;
+        color: white;
+    }
+    .desc h2 {
+        font-size: 18px;
+        color: #bbb;
+        font-weight: 500;
+        margin-top: -20px;
+    }
+    .desc p {
+        margin: 24px 0;
+    }
+
+    /* second-page */
+    .second-page {
+        gap: 28px;
+    }
+    .second-page h1 {
+        margin: 0;
+        font-size: 32px;
+    }
+    .container-progress h2 {
+        font-size: 20px;
+    }
+
+    /* third-page */
+    .third-page h1 {
+        margin: 0;
+    }
+}
+/* ===== max width : 900px (END) ===== */
+
+
+
+/* ===== max width : 800px ===== */
+@media screen and (max-width: 800px) {
+    /* landing-page */
+    .landing-page .coding p {
+        font-size: 13px;
+    }
+    .card-coding {
+        gap: 15px;
+    }
+    .card-coding-2 {
+        transform: translateX(20px) translateY(50px);
+    }
+
+    /* third-page */
+    .card-container {
+        grid-template-columns: auto;
+    }
+}
+/* ===== max width : 800px (END) ===== */
+
+
+
+/* ===== max width : 700px ===== */
+@media screen and (max-width: 700px) {
+    /* navbar */
+    nav ul {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .nav-phone {
+        display: flex;
+    }
+
+    /* landing-page */
+    .landing-page {
+        padding: 120px 20px 60px;
+    }
+    .landing-page .coding p {
+        font-size: 12px;
+    }
+    .card-coding {
+        padding: 15px 22px;
+    }
+    .card-coding .upper h3 {
+        font-size: 16px;
+    }
+    .card-coding-2 {
+        transform: translateX(-20px) translateY(40px);
+    }
+    .card-coding .column-right span {
+        overflow-x: clip;
+        overflow-y: hidden;
+    }
+
+
+    /* first-page */
+    .icon-container img  {
+        width: 28px;
+    }
+}
+/* ===== max width : 700px (END) ===== */
+
+
+
+/* ===== max width : 600px ===== */
+@media screen and (max-width: 600px) {
+    /* landing-page */
+    .card-coding .bubbles {
+        gap: 6px;
+    }
+    .card-coding .bubble {
+        width: 12px;
+        height: 12px;
+    }
+    .landing-page .coding p {
+        font-size: 11px;
+    }
+}
+/* ===== max width : 600px (END) ===== */
+
+
+
+/* ===== max width : 500px ===== */
+@media screen and (max-width: 500px) {
+    /* landing-page */
+    .card-coding .upper h3 {
+        font-size: 15px;
+    }
+    .landing-page .coding p {
+        font-size: 10px;
+    }
+}
+/* ===== max width : 500px (END) ===== */
