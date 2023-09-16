@@ -78,17 +78,17 @@ $(".counter-1").count({
 });
 $(".counter-2").count({
     startValue: 0,
-    endValue: 42,
+    endValue: 74,
     durationValue: 1200
 });
 $(".counter-3").count({
     startValue: 0,
-    endValue: 21,
+    endValue: 62,
     durationValue: 1200
 });
 $(".counter-4").count({
     startValue: 0,
-    endValue: 14,
+    endValue: 21,
     durationValue: 1200
 });
 $(".counter-5").count({
