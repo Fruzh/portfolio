@@ -490,19 +490,19 @@ ol li:hover a {
     box-shadow: 0 0 30px #ce464680;
 }
 .progress-2.active {
-    width: 42%;
+    width: 74%;
     opacity: 1;
     background-color: #dec13c;
     box-shadow: 0 0 30px #dec13c80;
 }
 .progress-3.active {
-    width: 21%;
+    width: 62%;
     opacity: 1;
     background-color: #3a4dc9;
     box-shadow: 0 0 30px #3a4dc980;
 }
 .progress-4.active {
-    width: 14%;
+    width: 21%;
     opacity: 1;
     background-color: #468DCE;
     box-shadow: 0 0 30px #468DCE80;
