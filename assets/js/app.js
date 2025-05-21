@@ -29,7 +29,7 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-const birthDate = new Date('2008-05-31'); // format YYYY-MM-DD
+const birthDate = new Date('2008-05-31');
 const today = new Date();
 
 let age = today.getFullYear() - birthDate.getFullYear();
