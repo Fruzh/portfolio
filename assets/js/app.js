@@ -38,7 +38,9 @@ if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
     age--;
 }
 
-document.getElementById('age').textContent = age;
+document.querySelectorAll('.age').forEach(el => {
+    el.textContent = age;
+});
 // ===== Vanila Javascript (END)
 
 
